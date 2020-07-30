@@ -9,7 +9,6 @@ import sys
 from stocklist import NasdaqController
 from tqdm import tqdm
 
-
 class mainObj:
     def getData(self, ticker):
         currentDate = datetime.datetime.strptime(
